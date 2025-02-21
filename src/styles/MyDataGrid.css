@@ -1,0 +1,9 @@
+.responsive-grid-container {
+    overflow-x: auto;
+}
+
+@media (max-width: 600px) {
+    .responsive-grid-container {
+        overflow-x: hidden;
+    }
+}
