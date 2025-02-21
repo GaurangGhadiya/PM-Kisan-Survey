@@ -27,9 +27,9 @@ const ParichayModal = ({ open, handleClose }) => {
                 {/* eKalyan */}
                 <iframe
                     src={`${process.env.NEXT_PUBLIC_PARICHAY_IFRAME}/GovLogin?service_id=${process.env.NEXT_PUBLIC_PARICHAY_IFRAME_SERVICEID}&app_unique=${process.env.NEXT_PUBLIC_ONBOARDING_APP}`}
-                    height={552}
+                    height={572}
                     width={410}
-                    style={{ border: "none", marginTop: "-10px", marginBottom: "-10px", height: "552px" }}
+                    style={{ border: "none", marginTop: "-10px", marginBottom: "-10px", height: "572px" }}
                 />
             </DialogContent>
 
